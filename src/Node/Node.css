@@ -1,0 +1,8 @@
+.node {
+    width: 20px;
+    height: 20px;
+    background-color: #d7f4f0;
+    outline: 1px solid #000000bf;
+    display: inline-block;
+    margin-top: -4px;
+  }
