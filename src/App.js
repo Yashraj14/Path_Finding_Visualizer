@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Grid from './Grid/Grid';
+import AnimatedCursor from './Animation/AnimatedCursor';
 import Pathvisualizer from './Pathvizualizer/Pathvisualizer';
 
 class App extends Component {
@@ -9,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
          <Pathvisualizer />
+         <AnimatedCursor />
       </div>
     );
   }
